@@ -9,7 +9,7 @@ void swap(int& a, int& b)
 	b = temp;
 }
 
-void selectionSort(vector<int> arr)
+void selectionSort(vector<int> &arr)
 {
 	int n = arr.size();
 	for (int i = 0; i < n - 1; i++)
